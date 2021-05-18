@@ -23,7 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  faker: ^2.0.0-rc.2
+  objectbox: ^0.15.0
+  objectbox_sync_flutter_libs: ^0.15.0
+  path_provider: ^2.0.1
+  faker: ^2.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -32,6 +35,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner: any
+  objectbox_generator: ^0.15.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
